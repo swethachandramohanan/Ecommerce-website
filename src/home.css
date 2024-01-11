@@ -1,0 +1,294 @@
+/* home.css */
+.body{
+    background-color: white;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+#slider {
+  margin-top: 35px;
+    width: 1600px;
+    overflow: hidden;
+    height: 70vh;
+    
+}
+
+.slides {
+    overflow: hidden;
+    animation-name: fade;
+    animation-duration: 2s;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.sidepic {
+    width: 100%;
+    height: 100%;
+}
+
+#dot {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dot {
+    display: inline-block;
+    border-radius: 50%;
+    background: #d3d3d3;
+    padding: 8px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: black;
+}
+
+@media (max-width: 567px) {
+    #slider {
+        width: 100%;
+    }
+}
+
+.tp {
+    margin-top: 10%;
+}
+
+.product-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 20px; /* Add top margin to the product boxes */
+}
+
+.product-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-box p {
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.container {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button1{
+    background-color: black;
+}
+
+
+.body {
+    background-color: #f8f8f8; /* Set a light background color for the entire page */
+    padding-bottom: 30px; /* Add some space at the bottom for the black background */
+  }
+  
+  #slider {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: none;
+  }
+  
+  .sidepic {
+    width: 100%;
+  }
+  
+  #dot {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .dot.active {
+    background-color: #717171;
+  }
+  
+  .product-box {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .product-box img {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .button1 {
+  
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Add a black background at the bottom of the page with details */
+  .black-background {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  
+    bottom: 0;
+    width: 100%;
+  }
+  /* Add these styles to your home.css file */
+
+.tp {
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .info-box {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    padding: 20px; /* Adjust the padding as needed */
+    text-align: center;
+    border-radius: 8px; /* Optional: Add rounded corners */
+    margin-bottom: 20px; /* Add margin at the bottom of each box */
+  }
+  
+  .info-box i {
+    font-size: 24px; /* Adjust the icon size as needed */
+    margin-bottom: 10px; /* Add space between the icon and text */
+  }
+  .material{
+    width: 300px;
+    height: 100px;
+  }
+  
+footer{
+  background-color: rgb(30, 30, 49);
+  margin-top: 10vmax;
+  color: white;
+  display: flex;
+  padding: 2vmax;
+  
+}
+
+.leftFooter{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.leftFooter>h4{
+font-family: 'Courier New', Courier, monospace;
+text-decoration: underline;
+}
+.leftFooter>p{
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.leftFooter>img{
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+.midFooter{
+  width:60%;
+  text-align: center;
+}
+
+.midFooter>h1{
+  font-size: 4vmax;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: crimson;
+}
+.midFooter>p{
+  max-width: 60%;
+  margin: 1vmax auto;
+}
+
+.rightFooter{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rightFooter>h4{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 1.4vmax;
+text-decoration: underline;
+
+}
+.rightFooter>a{
+text-decoration: none;
+color: white;
+margin: 0.5vmax;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1.3vmax;
+
+}
+
+.logoc{
+  width: 30%;
+  height: 20%;
+}
+.col{
+  text-align: start;
+  color: black;
+  font-family: "Oswald";
+}
+
+.product-tooltip {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(62, 246, 246, 0.7);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+.product-box:hover .product-tooltip {
+  display: block;
+}
+.custom-margin {
+  margin-left: 10px;
+}
+#slider2 {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides1 {
+  display: none;
+}
+
+.sidepic {
+  width: 100%;
+}

@@ -1,0 +1,191 @@
+
+
+.container-fluid {
+ 
+}
+
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+ 
+}
+
+.product {
+  border: 1px solid #ddd;
+
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.head {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  
+}
+.btn 
+.btn-primary{
+  background-color: #007bff;
+  color: #fff;
+  /* padding: 5px 5px; */
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .product {
+      width: 100%;
+  }
+}
+/* Add these styles to your cart.css file */
+
+.container-fluid {
+  margin-top: 20px;
+}
+
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+ 
+  
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.description-wrapper {
+  flex-grow: 1;
+}
+
+.price {
+  font-weight: bold;
+  color: #ff5722;
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.btn-danger {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  /* padding: 8px 12px; */
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #e04119;
+  }
+}
+
+/* Add additional styles for the total amount and buy button */
+.bag{
+  text-align: center;
+}
+.under{
+
+}
+.under1{
+  background-color: black;
+  width: 100px;
+  height: 50px;
+}
+.black{
+  background-color: black;
+  padding: 7px;
+  color: white;
+  text-align: center;
+}
+.adj{
+  margin-right: 50px;
+}
+/* cart.css */
+
+.empty-cart {
+  position: relative;
+}
+
+.eyes {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+
+}
+.eyes1{
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.mouth{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+ font-size: 60px;
+  transform: translate(-50%, -50%);
+}
+.hand{
+  font-size: 25px;
+}
+.empty{
+  margin-top: 40px;
+}

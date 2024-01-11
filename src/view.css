@@ -1,0 +1,225 @@
+/* Add this style to your view.css file */
+body {
+  background: url('White_backgroung.png');
+}
+
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.head {
+  font-weight: bold;
+}
+
+.change {
+  color: white;
+  background-color: black;
+}
+
+.product {
+  width: 200px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  background-color: white;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.product {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.des {
+  margin-bottom: 10px;
+}
+
+.pri {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Add these styles to your view.css file */
+
+.container-fluid {}
+
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.price {
+  font-weight: bold;
+  color: #ff5722;
+  margin-bottom: 10px;
+}
+
+.change {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.change:hover {
+  background-color: #45a049;
+}
+
+/* Add similar styles for other components if needed */
+.pink {
+  width: 1600px;
+  background-color: rgb(238, 190, 198);
+}
+
+.up {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.up:hover {
+  transform: scale(1.05);
+}
+
+.inc {
+  width: 1520px;
+  height: 200px;
+  margin-bottom: 50px;
+  margin-left: 37px;
+}
+
+.mar {
+  border-bottom: 1px grey solid;
+  padding: 8px;
+  width: 170px;
+}
+
+.arrow1 {
+  padding-left: 84px;
+}
+
+.arrow2 {
+  padding-left: 62px;
+}
+
+.arrow3 {
+  padding-left: 43px;
+}
+
+.arrow4 {
+  padding-left: 53px;
+}
+
+.arrow5 {
+  padding-left: 100px;
+}
+
+.arrow6 {
+  padding-left: 34px;
+}
+
+details {
+  position: relative;
+}
+
+details summary {
+  list-style: none;
+  display: inline-flex;
+  gap: 1em;
+  padding: 0.5em 1em;
+  background-color: lightgray;
+}
+
+details summary::after {
+  border-style: solid;
+  border-width: 0.15em 0.15em 0 0;
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  left: 0;
+  position: relative;
+  vertical-align: top;
+  width: 0.5em;
+  top: 0;
+  transform: rotate(135deg);
+}
+
+details ul,
+details ol {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+  display: none;
+}
+
+details li {
+  padding: 0.5em 1em;
+}
+
+details[open] summary::after {
+  top: 0.25em;
+  transform: rotate(-45deg);
+}
+
+details[open] ul,
+details[open] ol {
+  display: inline-block;
+}

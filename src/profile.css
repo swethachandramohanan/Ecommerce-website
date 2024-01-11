@@ -1,0 +1,266 @@
+
+
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Header styling */
+header {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 12px 0;
+  top: 0;
+  background: rgba(216, 175, 131, 0.8);
+  height: 60px;
+  z-index: 999;
+}
+
+.site-title h1 {
+  margin: 5px 0 0;
+  padding: 0;
+  font-size: 24px;
+  color: #071b0e;
+}
+
+/* Menu styling */
+menu {
+  width: 260px;
+  position: fixed;
+  padding: 0;
+  z-index: 10;
+  height: calc(100% - 100px);
+  overflow-y: auto;
+  background: rgba(214, 214, 212, 0.2);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  top: 60px;
+  left: 50px;
+  margin: 0;
+  overflow-y: auto;
+}
+
+.admin-menu,
+.profile-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-menu li,
+.admin-menu li {
+  border-top: 1px solid rgba(214, 175, 131, 0.6);
+}
+
+
+
+.user-profile {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.profile-pic img {
+  width: 60%;
+  height: 65px;
+  margin: 0 auto;
+  border-radius: 70%;
+  border: 2px solid #d8af83;
+}
+
+.user-info {
+  width: calc(100% - 90px);
+  margin-left: 6px;
+}
+.arrow{
+  font-size: 30px;
+  margin-top: 5px;
+}
+.seller{
+  font-family: 'Gulzar', serif;
+}
+
+.username {
+  font-size: 20px;
+  /* text-align: center; */
+  margin-left: 6px;
+  color: #071b0e;
+  letter-spacing: 1px;
+  padding-left: 20px;
+}
+.buttonlog{
+  background-color: black;
+ 
+}
+
+.arrow{
+  margin-top: 5px;
+}
+
+
+.name{
+  margin-top: 100px;
+}
+.log{
+  background-color:#d8af83;
+  color: black;
+  width: 100px;
+}
+
+.order{
+  display: inline-block;
+  /* margin-top: 10px; */
+}
+.move{
+  /* margin-left: 30%; */
+}
+
+
+
+
+
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Profile Menu styling */
+menu#user {
+  width: 260px;
+  position: fixed;
+  padding: 20px 10px;
+  z-index: 10;
+  height: calc(100% - 100px);
+  overflow-y: auto;
+  background: rgba(214, 214, 212, 0.2);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  top: 60px;
+  left: 50px;
+}
+
+.user-profile {
+  text-align: center;
+}
+
+.profile-pic img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #d8af83;
+}
+
+.user-info {
+  margin-top: 10px;
+}
+
+.username {
+  font-size: 20px;
+  color: #071b0e;
+}
+
+.menu-item {
+  border-top: 1px solid rgba(214, 175, 131, 0.6);
+  padding: 10px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item h4 {
+  margin: 0;
+  margin-left: 10px;
+  font-family: 'Gulzar', serif;
+}
+
+.menu-item .arrow {
+  font-size: 20px;
+  margin-top: 3px;
+}
+
+.buttonlog {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.move {
+  margin-left: 15%;
+  margin-top: 30px;
+}
+.move1{
+  /* margin-top: 20%; */
+  margin-top: 30px;
+  margin-left: 20%;
+}
+.h1{
+  text-align: center;
+  font-family: 'Gulzar', serif;
+  font-size: 30px;
+}
+.one{
+  height: 100px;
+  border: 1px solid #9f8974;
+  background-color: rgb(231, 231, 231)
+  
+}
+.image{
+width: 18%;
+margin-left: 130px;
+}
+.image2{
+width: 17%;
+margin-left: 130px;
+}
+.image3{
+  width: 17%;
+  margin-left: 130px;
+
+  }
+.left{
+  margin-left: 27%;
+  border: 1px wheat solid;
+}
+.top{
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'EB Garamond', serif;
+}
+.top2{
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 160px;
+  margin-bottom: 10px;
+}

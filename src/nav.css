@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__item {
+  margin-right: 2px;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 5px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav__link:hover {
+  background-color: #555; /* Change background color on hover */
+}
+
+.nav__link.button {
+  background-color: #4CAF50; /* Button-specific background color */
+}
+
+.nav__close {
+  display: none;
+}
+
+/* Style for the User link as a button */
+.nav__item:last-child .nav__link {
+  background-color: #4CAF50;
+}
+
+/* Hover effect for the User link button */
+.button {
+  background-color: #45a049;
+}
+
+.logo {
+  width: 15%;
+  height: 5%;
+
+}

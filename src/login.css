@@ -1,0 +1,29 @@
+.bodylogin{
+    background: linear-gradient(to left, rgb(185, 160, 209), #e4d1e2);
+    width: 1700px;
+    height: 800px;
+    
+ }
+ 
+
+ .form1{
+    margin-top: 120px;
+     height: 400px;
+      margin-left: 10%;
+  
+  
+ }
+ input{
+     background-color: rgb(222, 216, 203);
+ }
+ .red{
+     margin-top: 120px;
+     margin-left: 383px;
+     width: 60%;
+     height: 400px;
+ }
+ .jump{
+     margin-top: 30px;
+     background-color: black;
+    color: aliceblue;
+ }

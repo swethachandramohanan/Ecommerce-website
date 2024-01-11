@@ -1,0 +1,231 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #d9e3e4, #fcb2bf);
+}  
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+
+    width: 450px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+  
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+.background{
+   
+    background: linear-gradient(135deg, #d9e3e4, #fcb2bf);
+    width: 1600px;
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    
+
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.login-link {
+    text-align: center;
+
+}
+
+.login-link a {
+    color: #db1575;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+.link1{
+    color: #db1575;
+}
+
+
+/* .button{
+   background-color: rgb(108, 113, 113);
+} */
+      h2 {
+         
+          text-align: center;
+          color: #333;
+      }
+
+      form {
+        background-color: transparent;
+          width: 400px;
+          padding: 20px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          background-color: #fff; 
+        
+      }
+
+      label {
+          display: block;
+          margin-bottom: 8px;
+          color: #333;
+      }
+
+      input {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 15px;
+          box-sizing: border-box;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+      }
+
+      button {
+          width: 100%;
+          padding: 10px;
+          background-color: #4caf50;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+         
+      }
+
+      button:hover {
+          background-color: #45a049;
+      }
+      
+       
+        #button {
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .btn {
+            border-radius: 15px;
+            padding: 1rem;
+            width: 200px;
+            height: 100%;
+            text-decoration: none;
+            color: white;
+            position: relative;
+            display: inline-block;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            overflow: hidden;
+        }
+
+        .btn:active {
+            transform: translate(0px, 5px);
+            -webkit-transform: translate(0px, 5px);
+            box-shadow: 0px 1px 0px 0px;
+        }
+
+        .btn-blue {
+            box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+            text-shadow: 0 1px 1px rgba(33, 33, 33, 0.2), 0 3px 10px rgba(33, 33, 33, 0.2), 0 3px 20px rgba(33, 33, 33, 0.4);
+            color: #f8f8ff;
+        }
+
+        .btn-blue p {
+            text-shadow: 1px 2px 2px rgba(0,0,0,0.1);
+            font-size: 1.25rem;
+            text-decoration: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: #0f0f12;
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .btn-blue p:hover {
+            color:white;
+        }
+
+        .btn-blue:hover {
+            box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.15);
+            text-decoration: none;
+        }
+
+        .text-grow {
+            transition: all .3s ease-in-out;
+        }
+
+        .text-grow:hover {
+            transform: scale(1.15);
+        }
+
+        .btn-bg-ocean {
+            background-position: center;
+            background-size: cover; 
+            background-repeat: no-repeat;
+        }
+        #register-button{
+            width: 120px; 
+            height: 40px;
+            background-color: crimson;
+            
+        } 
+        
+        .movel{
+
+font-size: 20px;
+        }
+       
+       
+.small{
+   
+    width: 150px;
+}
+
+ .reg{
+    background-color: rgb(0, 0, 0);
+    color: wheat;
+ }
+ .h2{
+    margin-top: 10%;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+ .imag{
+    margin-left: 43%;
+    width: 60%;
+    height: 100%;
+   
+ }
+ 
